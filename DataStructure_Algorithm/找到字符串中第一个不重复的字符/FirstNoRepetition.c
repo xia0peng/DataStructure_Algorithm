@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int FirstNoRepetition(){
+int firstNoRepetition(){
     
     const char *str="akdadaddads";
     
@@ -44,7 +44,7 @@ int FirstNoRepetition(){
     }
     
     if (pos<strlen(str)) {
-        printf("n.找到字符串中第一个不重复的字符：%c\n\n",str[pos]);
+        printf("\n\nn.找到字符串中第一个不重复的字符：%c\n\n",str[pos]);
     }
     
     return 0;
