@@ -36,8 +36,12 @@ int selectionSort(){
         }
     }
 
+    printf("1.选择排序：");
+
     for(i=0;i<len;i++)
         printf("%d",arry[i]);
     
+    printf("\n\n");
+
     return 0;
 }

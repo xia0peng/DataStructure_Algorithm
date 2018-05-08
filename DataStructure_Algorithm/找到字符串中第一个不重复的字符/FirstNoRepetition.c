@@ -44,7 +44,7 @@ int firstNoRepetition(){
     }
     
     if (pos<strlen(str)) {
-        printf("\n\nn.找到字符串中第一个不重复的字符：%c\n\n",str[pos]);
+        printf("n.找到字符串中第一个不重复的字符：%c\n\n",str[pos]);
     }
     
     return 0;
