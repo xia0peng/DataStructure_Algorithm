@@ -10,7 +10,7 @@
 
 int selectionSort(){
     
-    int arry[] = {3,5,6,9,4,1,2,7};
+    int arry[] = {3,5,6,9,4,1,2,7,8};
     
     int len = sizeof(arry)/sizeof(arry[0]); // 数组长度
     

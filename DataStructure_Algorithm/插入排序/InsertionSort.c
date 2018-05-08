@@ -10,7 +10,7 @@
 
 int insertionSort(){
 
-    int arry[] = {3,5,6,9,4,1,2,7};
+    int arry[] = {3,5,6,9,4,1,2,7,8};
     
     int len = sizeof(arry)/sizeof(arry[0]);
     
@@ -43,3 +43,41 @@ int insertionSort(){
 
     return 0;
 }
+
+// 插入排序的优化
+// 将三次赋值优化为一次赋值
+int optimizationInsertionSort(){
+    
+    int arry[] = {3,5,6,9,4,1,2,7,8};
+    
+    int len = sizeof(arry)/sizeof(arry[0]);
+    
+    int i,j,temp;
+    
+    for (i = 1; i<len; i++)
+    {
+        temp = arry[i];//保存当前位置i的元素，其中[0,i-1]已经有序
+        
+        for (j = i; j>0; j--)
+        {
+            if (temp<arry[j-1])
+                arry[j] = arry[j-1]; // 后移一位
+            else
+                break;
+        }
+        arry[j] = temp; // 插入到合适的位置
+    }
+    
+    printf("  插入排序的优化：");
+    
+    for(i=0;i<len;i++)
+        printf("%d",arry[i]);
+    
+    printf("\n\n");
+    
+    return 0;
+}
+
+
+
+

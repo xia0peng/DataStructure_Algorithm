@@ -82,6 +82,8 @@
 				1D5169B8209DB97A0054C65E /* main.c */,
 				1D44E74C20A17C4E006EFB2D /* 选择排序 */,
 				1D44E74F20A1AD5C006EFB2D /* 插入排序 */,
+				9A39CB3020A1F6EB00EFE841 /* 冒泡算法 */,
+				9A39CB3120A1F88900EFE841 /* 希尔排序 */,
 				9A39CB26209F306300EFE841 /* 找到字符串中第一个不重复的字符 */,
 			);
 			path = DataStructure_Algorithm;
@@ -93,6 +95,20 @@
 				9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */,
 			);
 			path = "找到字符串中第一个不重复的字符";
+			sourceTree = "<group>";
+		};
+		9A39CB3020A1F6EB00EFE841 /* 冒泡算法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "冒泡算法";
+			sourceTree = "<group>";
+		};
+		9A39CB3120A1F88900EFE841 /* 希尔排序 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "希尔排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
