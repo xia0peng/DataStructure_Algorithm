@@ -11,7 +11,7 @@
 
 int FirstNoRepetition(){
     
-    const char *str="aabbccdeef";
+    const char *str="akdadaddads";
     
     int i;
     
@@ -30,15 +30,22 @@ int FirstNoRepetition(){
         }
     }
     
-    int min = (int)strlen(str),p=0;
+    int pos = (int)strlen(str);
     
     for(i=0;i<26;i++)
-        if(count[i]==1 && index[i]!=-1 && index[i]<min) // 找到之出现一次的字母&&在只出现一次的子母中找出索引值最小的即可
+    {
+        if(count[i]==1) // 找到之出现一次的字母
         {
-            min=index[i];
-            p=i;
+            if ( index[i]!=-1 && index[i]<pos) // 在只出现一次的子母中找出索引值最小的即可
+            {
+                pos = index[i];
+            }
         }
-    printf("n.找到字符串中第一个不重复的字符：%c\n\n",p+'a');
+    }
+    
+    if (pos<strlen(str)) {
+        printf("n.找到字符串中第一个不重复的字符：%c\n\n",str[pos]);
+    }
     
     return 0;
 }
