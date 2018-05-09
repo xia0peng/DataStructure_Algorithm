@@ -34,6 +34,7 @@
 		1DE4721920A3063600F3BE62 /* ShellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
 		1DE4721A20A3088D00F3BE62 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FirstNoRepetition.c; sourceTree = "<group>"; };
+		9A77516B20A3373C00738F3B /* monster.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = monster.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				1D5169B8209DB97A0054C65E /* main.c */,
+				9A77516A20A3373C00738F3B /* 神兽保佑 */,
 				1D44E74C20A17C4E006EFB2D /* 选择排序 */,
 				1D44E74F20A1AD5C006EFB2D /* 插入排序 */,
 				1D3AC09720A2A9590029E4BD /* 冒泡排序 */,
@@ -114,6 +116,14 @@
 				9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */,
 			);
 			path = "找到字符串中第一个不重复的字符";
+			sourceTree = "<group>";
+		};
+		9A77516A20A3373C00738F3B /* 神兽保佑 */ = {
+			isa = PBXGroup;
+			children = (
+				9A77516B20A3373C00738F3B /* monster.c */,
+			);
+			path = "神兽保佑";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
