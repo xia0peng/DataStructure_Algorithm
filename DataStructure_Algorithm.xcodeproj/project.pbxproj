@@ -12,6 +12,7 @@
 		1D5169B9209DB97A0054C65E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D5169B8209DB97A0054C65E /* main.c */; };
 		1DE4721B20A3088D00F3BE62 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4721A20A3088D00F3BE62 /* BubbleSort.c */; };
 		9A39CB2C209F3C0D00EFE841 /* FirstNoRepetition.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */; };
+		9A77517220A4786900738F3B /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A77517120A4786900738F3B /* ShellSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +32,10 @@
 		1D44E75020A1AE1C006EFB2D /* InsertionSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = InsertionSort.c; sourceTree = "<group>"; };
 		1D5169B5209DB97A0054C65E /* DataStructure_Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructure_Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5169B8209DB97A0054C65E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		1DE4721920A3063600F3BE62 /* ShellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
 		1DE4721A20A3088D00F3BE62 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
 		9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FirstNoRepetition.c; sourceTree = "<group>"; };
 		9A77516B20A3373C00738F3B /* monster.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = monster.c; sourceTree = "<group>"; };
+		9A77517120A4786900738F3B /* ShellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +60,7 @@
 		1D3AC09920A2A97A0029E4BD /* 希尔排序 */ = {
 			isa = PBXGroup;
 			children = (
-				1DE4721920A3063600F3BE62 /* ShellSort.c */,
+				9A77517120A4786900738F3B /* ShellSort.c */,
 			);
 			path = "希尔排序";
 			sourceTree = "<group>";
@@ -182,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A77517220A4786900738F3B /* ShellSort.c in Sources */,
 				1D44E74E20A17C6D006EFB2D /* SelectionSort.c in Sources */,
 				1DE4721B20A3088D00F3BE62 /* BubbleSort.c in Sources */,
 				9A39CB2C209F3C0D00EFE841 /* FirstNoRepetition.c in Sources */,
