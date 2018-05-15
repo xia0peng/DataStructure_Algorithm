@@ -13,6 +13,9 @@
 		1DE4721B20A3088D00F3BE62 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4721A20A3088D00F3BE62 /* BubbleSort.c */; };
 		9A39CB2C209F3C0D00EFE841 /* FirstNoRepetition.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */; };
 		9A77517220A4786900738F3B /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A77517120A4786900738F3B /* ShellSort.c */; };
+		9A824E0320AA9135005F5D4F /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A824E0220AA9135005F5D4F /* QuickSort.c */; };
+		9A824E0520AA9178005F5D4F /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A824E0420AA9178005F5D4F /* MergeSort.c */; };
+		9A824E0720AA918F005F5D4F /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A824E0620AA918F005F5D4F /* HeapSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,6 +39,9 @@
 		9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FirstNoRepetition.c; sourceTree = "<group>"; };
 		9A77516B20A3373C00738F3B /* monster.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = monster.c; sourceTree = "<group>"; };
 		9A77517120A4786900738F3B /* ShellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
+		9A824E0220AA9135005F5D4F /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
+		9A824E0420AA9178005F5D4F /* MergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
+		9A824E0620AA918F005F5D4F /* HeapSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapSort.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				1D44E74F20A1AD5C006EFB2D /* 插入排序 */,
 				1D3AC09720A2A9590029E4BD /* 冒泡排序 */,
 				1D3AC09920A2A97A0029E4BD /* 希尔排序 */,
+				9A824DFF20AA9058005F5D4F /* 快速排序 */,
+				9A824E0020AA9064005F5D4F /* 归并排序 */,
+				9A824E0120AA906B005F5D4F /* 堆排序 */,
 				9A39CB26209F306300EFE841 /* 找到字符串中第一个不重复的字符 */,
 			);
 			path = DataStructure_Algorithm;
@@ -125,6 +134,30 @@
 				9A77516B20A3373C00738F3B /* monster.c */,
 			);
 			path = "神兽保佑";
+			sourceTree = "<group>";
+		};
+		9A824DFF20AA9058005F5D4F /* 快速排序 */ = {
+			isa = PBXGroup;
+			children = (
+				9A824E0220AA9135005F5D4F /* QuickSort.c */,
+			);
+			path = "快速排序";
+			sourceTree = "<group>";
+		};
+		9A824E0020AA9064005F5D4F /* 归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				9A824E0420AA9178005F5D4F /* MergeSort.c */,
+			);
+			path = "归并排序";
+			sourceTree = "<group>";
+		};
+		9A824E0120AA906B005F5D4F /* 堆排序 */ = {
+			isa = PBXGroup;
+			children = (
+				9A824E0620AA918F005F5D4F /* HeapSort.c */,
+			);
+			path = "堆排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +220,11 @@
 				1D44E74E20A17C6D006EFB2D /* SelectionSort.c in Sources */,
 				1DE4721B20A3088D00F3BE62 /* BubbleSort.c in Sources */,
 				9A39CB2C209F3C0D00EFE841 /* FirstNoRepetition.c in Sources */,
+				9A824E0720AA918F005F5D4F /* HeapSort.c in Sources */,
+				9A824E0520AA9178005F5D4F /* MergeSort.c in Sources */,
 				1D5169B9209DB97A0054C65E /* main.c in Sources */,
 				1D44E75120A1AE1C006EFB2D /* InsertionSort.c in Sources */,
+				9A824E0320AA9135005F5D4F /* QuickSort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
