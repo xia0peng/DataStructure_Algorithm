@@ -6,7 +6,7 @@
 //  Copyright © 2018年 student. All rights reserved.
 //
 
-#include <stdio.h>
+#include <stdio.h> 
 
 int selectionSort(){
     
