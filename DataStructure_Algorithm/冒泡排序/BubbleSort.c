@@ -17,7 +17,7 @@ int bubbleSort(){
     
     int i,j,temp;
      
-    for (i=0; i<len-1; i++)
+    for (i=0; i<len-1; i++) // 内部循环执行len-1次
     {
         for (j=0; j<len-i-1; j++)
         {

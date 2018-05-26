@@ -56,7 +56,7 @@ int optimizationInsertionSort(){
     
     for (i = 1; i<len; i++)
     {
-        temp = arry[i];//保存当前位置i的元素，其中[0,i-1]已经有序
+        temp = arry[i];// 保存当前位置i的元素，其中[0,i-1]已经有序
         
         for (j = i; j>0; j--)
         {
