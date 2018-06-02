@@ -12,6 +12,7 @@
 		1D5169B9209DB97A0054C65E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D5169B8209DB97A0054C65E /* main.c */; };
 		1D72801220ABEC130027863E /* GetMaxNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 1D72801120ABEC130027863E /* GetMaxNumber.c */; };
 		1DE4721B20A3088D00F3BE62 /* BubbleSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 1DE4721A20A3088D00F3BE62 /* BubbleSort.c */; };
+		9A00DA9B20B9AB3C00ED4C75 /* GetIndexNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A00DA9A20B9AB3C00ED4C75 /* GetIndexNumber.c */; };
 		9A39CB2C209F3C0D00EFE841 /* FirstNoRepetition.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */; };
 		9A77517220A4786900738F3B /* ShellSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A77517120A4786900738F3B /* ShellSort.c */; };
 		9A824E0320AA9135005F5D4F /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A824E0220AA9135005F5D4F /* QuickSort.c */; };
@@ -38,6 +39,7 @@
 		1D5169B8209DB97A0054C65E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		1D72801120ABEC130027863E /* GetMaxNumber.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GetMaxNumber.c; sourceTree = "<group>"; };
 		1DE4721A20A3088D00F3BE62 /* BubbleSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = BubbleSort.c; sourceTree = "<group>"; };
+		9A00DA9A20B9AB3C00ED4C75 /* GetIndexNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GetIndexNumber.c; sourceTree = "<group>"; };
 		9A39CB2B209F3C0D00EFE841 /* FirstNoRepetition.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FirstNoRepetition.c; sourceTree = "<group>"; };
 		9A77516B20A3373C00738F3B /* monster.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = monster.c; sourceTree = "<group>"; };
 		9A77517120A4786900738F3B /* ShellSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ShellSort.c; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				9A824DFF20AA9058005F5D4F /* 快速排序 */,
 				9A824E0020AA9064005F5D4F /* 归并排序 */,
 				9A824E0120AA906B005F5D4F /* 堆排序 */,
+				9A00DA9920B9AB3C00ED4C75 /* 取数字指定位数的字 */,
 				1D72801020ABEBEA0027863E /* 求数组最大数的位数 */,
 				9A39CB26209F306300EFE841 /* 找到字符串中第一个不重复的字符 */,
 			);
@@ -129,6 +132,14 @@
 				1D72801120ABEC130027863E /* GetMaxNumber.c */,
 			);
 			path = "求数组最大数的位数";
+			sourceTree = "<group>";
+		};
+		9A00DA9920B9AB3C00ED4C75 /* 取数字指定位数的字 */ = {
+			isa = PBXGroup;
+			children = (
+				9A00DA9A20B9AB3C00ED4C75 /* GetIndexNumber.c */,
+			);
+			path = "取数字指定位数的字";
 			sourceTree = "<group>";
 		};
 		9A39CB26209F306300EFE841 /* 找到字符串中第一个不重复的字符 */ = {
@@ -230,6 +241,7 @@
 				1D72801220ABEC130027863E /* GetMaxNumber.c in Sources */,
 				9A77517220A4786900738F3B /* ShellSort.c in Sources */,
 				1D44E74E20A17C6D006EFB2D /* SelectionSort.c in Sources */,
+				9A00DA9B20B9AB3C00ED4C75 /* GetIndexNumber.c in Sources */,
 				1DE4721B20A3088D00F3BE62 /* BubbleSort.c in Sources */,
 				9A39CB2C209F3C0D00EFE841 /* FirstNoRepetition.c in Sources */,
 				9A824E0720AA918F005F5D4F /* HeapSort.c in Sources */,
