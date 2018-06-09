@@ -18,6 +18,7 @@
 		9A824E0320AA9135005F5D4F /* QuickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A824E0220AA9135005F5D4F /* QuickSort.c */; };
 		9A824E0520AA9178005F5D4F /* MergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A824E0420AA9178005F5D4F /* MergeSort.c */; };
 		9A824E0720AA918F005F5D4F /* HeapSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A824E0620AA918F005F5D4F /* HeapSort.c */; };
+		9A98D52620CBD6AF00866F83 /* MergeSortedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 9A98D52520CBD6AF00866F83 /* MergeSortedList.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		9A824E0220AA9135005F5D4F /* QuickSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = QuickSort.c; sourceTree = "<group>"; };
 		9A824E0420AA9178005F5D4F /* MergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSort.c; sourceTree = "<group>"; };
 		9A824E0620AA918F005F5D4F /* HeapSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HeapSort.c; sourceTree = "<group>"; };
+		9A98D52520CBD6AF00866F83 /* MergeSortedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSortedList.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				9A824DFF20AA9058005F5D4F /* 快速排序 */,
 				9A824E0020AA9064005F5D4F /* 归并排序 */,
 				9A824E0120AA906B005F5D4F /* 堆排序 */,
+				9A98D52420CBD69900866F83 /* 有序数组的合并 */,
 				9A00DA9920B9AB3C00ED4C75 /* 取数字指定位数的字 */,
 				1D72801020ABEBEA0027863E /* 求数组最大数的位数 */,
 				9A39CB26209F306300EFE841 /* 找到字符串中第一个不重复的字符 */,
@@ -180,6 +183,14 @@
 				9A824E0620AA918F005F5D4F /* HeapSort.c */,
 			);
 			path = "堆排序";
+			sourceTree = "<group>";
+		};
+		9A98D52420CBD69900866F83 /* 有序数组的合并 */ = {
+			isa = PBXGroup;
+			children = (
+				9A98D52520CBD6AF00866F83 /* MergeSortedList.c */,
+			);
+			path = "有序数组的合并";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +260,7 @@
 				1D5169B9209DB97A0054C65E /* main.c in Sources */,
 				1D44E75120A1AE1C006EFB2D /* InsertionSort.c in Sources */,
 				9A824E0320AA9135005F5D4F /* QuickSort.c in Sources */,
+				9A98D52620CBD6AF00866F83 /* MergeSortedList.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
