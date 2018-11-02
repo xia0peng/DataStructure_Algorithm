@@ -61,36 +61,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D3AC09720A2A9590029E4BD /* 冒泡排序 */ = {
+		1D3AC09720A2A9590029E4BD /* 3.冒泡排序 */ = {
 			isa = PBXGroup;
 			children = (
 				1DE4721A20A3088D00F3BE62 /* BubbleSort.c */,
 			);
-			path = "冒泡排序";
+			path = "3.冒泡排序";
 			sourceTree = "<group>";
 		};
-		1D3AC09920A2A97A0029E4BD /* 希尔排序 */ = {
+		1D3AC09920A2A97A0029E4BD /* 4.希尔排序 */ = {
 			isa = PBXGroup;
 			children = (
 				9A77517120A4786900738F3B /* ShellSort.c */,
 			);
-			path = "希尔排序";
+			path = "4.希尔排序";
 			sourceTree = "<group>";
 		};
-		1D44E74C20A17C4E006EFB2D /* 选择排序 */ = {
+		1D44E74C20A17C4E006EFB2D /* 1.选择排序 */ = {
 			isa = PBXGroup;
 			children = (
 				1D44E74D20A17C6D006EFB2D /* SelectionSort.c */,
 			);
-			path = "选择排序";
+			path = "1.选择排序";
 			sourceTree = "<group>";
 		};
-		1D44E74F20A1AD5C006EFB2D /* 插入排序 */ = {
+		1D44E74F20A1AD5C006EFB2D /* 2.插入排序 */ = {
 			isa = PBXGroup;
 			children = (
 				1D44E75020A1AE1C006EFB2D /* InsertionSort.c */,
 			);
-			path = "插入排序";
+			path = "2.插入排序";
 			sourceTree = "<group>";
 		};
 		1D5169AC209DB97A0054C65E = {
@@ -114,13 +114,13 @@
 			children = (
 				1D5169B8209DB97A0054C65E /* main.c */,
 				9A77516A20A3373C00738F3B /* 神兽保佑 */,
-				1D44E74C20A17C4E006EFB2D /* 选择排序 */,
-				1D44E74F20A1AD5C006EFB2D /* 插入排序 */,
-				1D3AC09720A2A9590029E4BD /* 冒泡排序 */,
-				1D3AC09920A2A97A0029E4BD /* 希尔排序 */,
-				9A824DFF20AA9058005F5D4F /* 快速排序 */,
-				9A824E0020AA9064005F5D4F /* 归并排序 */,
-				9A824E0120AA906B005F5D4F /* 堆排序 */,
+				1D44E74C20A17C4E006EFB2D /* 1.选择排序 */,
+				1D44E74F20A1AD5C006EFB2D /* 2.插入排序 */,
+				1D3AC09720A2A9590029E4BD /* 3.冒泡排序 */,
+				1D3AC09920A2A97A0029E4BD /* 4.希尔排序 */,
+				9A824DFF20AA9058005F5D4F /* 5.快速排序 */,
+				9A824E0020AA9064005F5D4F /* 6.归并排序 */,
+				9A824E0120AA906B005F5D4F /* 7.堆排序 */,
 				9A98D52420CBD69900866F83 /* 有序数组的合并 */,
 				9A00DA9920B9AB3C00ED4C75 /* 取数字指定位数的字 */,
 				1D72801020ABEBEA0027863E /* 求数组最大数的位数 */,
@@ -161,28 +161,28 @@
 			path = "神兽保佑";
 			sourceTree = "<group>";
 		};
-		9A824DFF20AA9058005F5D4F /* 快速排序 */ = {
+		9A824DFF20AA9058005F5D4F /* 5.快速排序 */ = {
 			isa = PBXGroup;
 			children = (
 				9A824E0220AA9135005F5D4F /* QuickSort.c */,
 			);
-			path = "快速排序";
+			path = "5.快速排序";
 			sourceTree = "<group>";
 		};
-		9A824E0020AA9064005F5D4F /* 归并排序 */ = {
+		9A824E0020AA9064005F5D4F /* 6.归并排序 */ = {
 			isa = PBXGroup;
 			children = (
 				9A824E0420AA9178005F5D4F /* MergeSort.c */,
 			);
-			path = "归并排序";
+			path = "6.归并排序";
 			sourceTree = "<group>";
 		};
-		9A824E0120AA906B005F5D4F /* 堆排序 */ = {
+		9A824E0120AA906B005F5D4F /* 7.堆排序 */ = {
 			isa = PBXGroup;
 			children = (
 				9A824E0620AA918F005F5D4F /* HeapSort.c */,
 			);
-			path = "堆排序";
+			path = "7.堆排序";
 			sourceTree = "<group>";
 		};
 		9A98D52420CBD69900866F83 /* 有序数组的合并 */ = {

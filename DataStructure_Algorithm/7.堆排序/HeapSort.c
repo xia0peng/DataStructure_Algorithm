@@ -23,7 +23,7 @@ void heapSort (){
 
     sort(arr,len);
     
-    printf("6.堆排序：");
+    printf("7.堆排序：");
     
     for(int i=0;i<len;i++)
         printf("%d",arr[i]);
